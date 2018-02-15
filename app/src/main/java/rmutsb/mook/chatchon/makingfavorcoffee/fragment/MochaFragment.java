@@ -23,6 +23,8 @@ import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyManager;
 
 public class MochaFragment extends Fragment {
 
+
+    //int score = 0;
     //    Explicit
     private String[] loginString;
     private RadioButton frappuccinoRadioButton, coldDrinnkRadioButton, hotDrinkRadioButton;
@@ -49,6 +51,7 @@ public class MochaFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
 
 //        Get Value From Arument
         getValueFromArument();
@@ -85,15 +88,20 @@ public class MochaFragment extends Fragment {
 //        Order Controller
         orderController();
 
+
+
     }//Main method
+
+
 
     private void orderController() {
 
-        Button button = getView().findViewById(R.id.btnOrder);
-
+        final Button button = getView().findViewById(R.id.btnOrder);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+
 
                 Log.d(tag, "idLogin " + loginString[0]);
                 Log.d(tag, "NameCoffee " + "Mocha");
@@ -113,6 +121,10 @@ public class MochaFragment extends Fragment {
                         .replace(R.id.contentFragmentCoffee, new ShowOrderFragment())
                         .addToBackStack(null)
                         .commit();
+
+
+
+
 
             }   // onClick
         });

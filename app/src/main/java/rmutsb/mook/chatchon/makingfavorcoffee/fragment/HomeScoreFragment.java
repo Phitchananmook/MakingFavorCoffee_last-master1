@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 import rmutsb.mook.chatchon.makingfavorcoffee.R;
 
@@ -14,6 +16,9 @@ import rmutsb.mook.chatchon.makingfavorcoffee.R;
  */
 
 public class HomeScoreFragment extends Fragment{
+
+
+
 
     public static HomeScoreFragment homeScoreInstance(String[] loginStrings) {
 
@@ -27,15 +32,24 @@ public class HomeScoreFragment extends Fragment{
 
 
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-    }
-
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_score, container, false);
         return view;
     }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+
+
+    }// method
+
+
+
 }   // Main Class
