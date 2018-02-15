@@ -24,16 +24,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eea5c171-ea1c-4ac0-ad41-84798948ac20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-46-14-045.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-56-11-118.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-58-09-116.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-59-23-544.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-46-14-045.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-56-11-118.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-58-09-116.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-08-59-23-544.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -42,8 +32,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyPostDataToServer.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyPostDataToServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,20 +73,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fragment_mocha.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fragment_mocha.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
-                <element signature="e#437#712#0" expanded="false" />
-                <element signature="e#742#991#0" expanded="false" />
-                <element signature="e#1027#2094#0" expanded="false" />
-                <element signature="e#2129#2408#0" expanded="false" />
-                <element signature="e#2758#5271#0" expanded="false" />
-                <element signature="e#5324#7766#0" expanded="false" />
-                <element signature="e#7812#10293#0" expanded="false" />
-                <element signature="e#10348#12852#0" expanded="false" />
+                <element signature="e#438#713#0" expanded="false" />
+                <element signature="e#743#992#0" expanded="false" />
+                <element signature="e#1028#2095#0" expanded="false" />
+                <element signature="e#2130#2409#0" expanded="false" />
+                <element signature="e#2759#5272#0" expanded="false" />
+                <element signature="e#5325#7767#0" expanded="false" />
+                <element signature="e#7813#10294#0" expanded="false" />
+                <element signature="e#10349#12853#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,34 +98,56 @@
       <file leaf-file-name="MochaFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
               <folding>
-                <element signature="e#2847#4054#0" expanded="true" />
-                <element signature="e#4053#4054#0" expanded="true" />
-                <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#cocoSeekbar#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#coldDefaule#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#hotDrinkController#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#clodDrinkController#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#frappuccinoController#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#initialView#0;class#MochaFragment#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3071#4919#0" expanded="true" />
+                <element signature="e#4918#4919#0" expanded="true" />
+                <element signature="e#5498#5522#0" expanded="true" />
+                <element signature="e#7227#7256#0" expanded="true" />
+                <element signature="e#8166#8195#0" expanded="true" />
+                <element signature="e#8561#8585#0" expanded="true" />
+                <element signature="e#8627#8656#0" expanded="true" />
+                <element signature="e#8698#8727#0" expanded="true" />
+                <element signature="e#8771#8800#0" expanded="true" />
+                <element signature="e#8898#9268#0" expanded="true" />
+                <element signature="e#9267#9268#0" expanded="true" />
+                <element signature="e#9368#9701#0" expanded="true" />
+                <element signature="e#9700#9701#0" expanded="true" />
+                <element signature="e#9804#10101#0" expanded="true" />
+                <element signature="e#10100#10101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddShowOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddShowOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="663">
+              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="12" column="122" lean-forward="false" selection-start-line="12" selection-start-column="122" selection-end-line="12" selection-end-column="122" />
+              <folding>
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1897,9 +1912,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_score.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyPostDataToServer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml" />
       </list>
     </option>
   </component>
@@ -2073,6 +2090,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2162,7 +2180,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518664339614" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518670057975" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2210,7 +2228,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518664339615" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518670057975" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2393,7 +2411,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518664339616" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518670057977" />
       </method>
     </configuration>
     <list size="1">
@@ -2460,7 +2478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518660167580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update Data">
+      <created>1518664378331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518664378367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2475,16 +2500,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2542,7 +2567,8 @@
     </ignored-roots>
     <MESSAGE value="Init" />
     <MESSAGE value="start 15feb" />
-    <option name="LAST_COMMIT_MESSAGE" value="start 15feb" />
+    <MESSAGE value="update Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2554,14 +2580,14 @@
         <state relative-caret-position="238">
           <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
-            <element signature="e#437#712#0" expanded="false" />
-            <element signature="e#742#991#0" expanded="false" />
-            <element signature="e#1027#2094#0" expanded="false" />
-            <element signature="e#2129#2408#0" expanded="false" />
-            <element signature="e#2758#5271#0" expanded="false" />
-            <element signature="e#5324#7766#0" expanded="false" />
-            <element signature="e#7812#10293#0" expanded="false" />
-            <element signature="e#10348#12852#0" expanded="false" />
+            <element signature="e#438#713#0" expanded="false" />
+            <element signature="e#743#992#0" expanded="false" />
+            <element signature="e#1028#2095#0" expanded="false" />
+            <element signature="e#2130#2409#0" expanded="false" />
+            <element signature="e#2759#5272#0" expanded="false" />
+            <element signature="e#5325#7767#0" expanded="false" />
+            <element signature="e#7813#10294#0" expanded="false" />
+            <element signature="e#10349#12853#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2574,17 +2600,22 @@
         <state relative-caret-position="561">
           <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
-            <element signature="e#2847#4054#0" expanded="true" />
-            <element signature="e#4053#4054#0" expanded="true" />
-            <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#cocoSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#coldDefaule#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#hotDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#clodDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappuccinoController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#initialView#0;class#MochaFragment#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3071#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#5498#5522#0" expanded="true" />
+            <element signature="e#7227#7256#0" expanded="true" />
+            <element signature="e#8166#8195#0" expanded="true" />
+            <element signature="e#8561#8585#0" expanded="true" />
+            <element signature="e#8627#8656#0" expanded="true" />
+            <element signature="e#8698#8727#0" expanded="true" />
+            <element signature="e#8771#8800#0" expanded="true" />
+            <element signature="e#8898#9268#0" expanded="true" />
+            <element signature="e#9267#9268#0" expanded="true" />
+            <element signature="e#9368#9701#0" expanded="true" />
+            <element signature="e#9700#9701#0" expanded="true" />
+            <element signature="e#9804#10101#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2617,17 +2648,22 @@
         <state relative-caret-position="85">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#2847#4054#0" expanded="true" />
-            <element signature="e#4053#4054#0" expanded="true" />
-            <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#cocoSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#coldDefaule#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#hotDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#clodDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappuccinoController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#initialView#0;class#MochaFragment#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3071#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#5498#5522#0" expanded="true" />
+            <element signature="e#7227#7256#0" expanded="true" />
+            <element signature="e#8166#8195#0" expanded="true" />
+            <element signature="e#8561#8585#0" expanded="true" />
+            <element signature="e#8627#8656#0" expanded="true" />
+            <element signature="e#8698#8727#0" expanded="true" />
+            <element signature="e#8771#8800#0" expanded="true" />
+            <element signature="e#8898#9268#0" expanded="true" />
+            <element signature="e#9267#9268#0" expanded="true" />
+            <element signature="e#9368#9701#0" expanded="true" />
+            <element signature="e#9700#9701#0" expanded="true" />
+            <element signature="e#9804#10101#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2645,14 +2681,14 @@
         <state relative-caret-position="1020">
           <caret line="322" column="38" lean-forward="false" selection-start-line="322" selection-start-column="38" selection-end-line="322" selection-end-column="38" />
           <folding>
-            <element signature="e#437#712#0" expanded="false" />
-            <element signature="e#742#991#0" expanded="false" />
-            <element signature="e#1027#2094#0" expanded="false" />
-            <element signature="e#2129#2408#0" expanded="false" />
-            <element signature="e#2758#5271#0" expanded="false" />
-            <element signature="e#5324#7766#0" expanded="false" />
-            <element signature="e#7812#10293#0" expanded="false" />
-            <element signature="e#10348#12852#0" expanded="false" />
+            <element signature="e#438#713#0" expanded="false" />
+            <element signature="e#743#992#0" expanded="false" />
+            <element signature="e#1028#2095#0" expanded="false" />
+            <element signature="e#2130#2409#0" expanded="false" />
+            <element signature="e#2759#5272#0" expanded="false" />
+            <element signature="e#5325#7767#0" expanded="false" />
+            <element signature="e#7813#10294#0" expanded="false" />
+            <element signature="e#10349#12853#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2683,17 +2719,22 @@
         <state relative-caret-position="357">
           <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
-            <element signature="e#2847#4054#0" expanded="true" />
-            <element signature="e#4053#4054#0" expanded="true" />
-            <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#cocoSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#coldDefaule#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#hotDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#clodDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappuccinoController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#initialView#0;class#MochaFragment#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3071#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#5498#5522#0" expanded="true" />
+            <element signature="e#7227#7256#0" expanded="true" />
+            <element signature="e#8166#8195#0" expanded="true" />
+            <element signature="e#8561#8585#0" expanded="true" />
+            <element signature="e#8627#8656#0" expanded="true" />
+            <element signature="e#8698#8727#0" expanded="true" />
+            <element signature="e#8771#8800#0" expanded="true" />
+            <element signature="e#8898#9268#0" expanded="true" />
+            <element signature="e#9267#9268#0" expanded="true" />
+            <element signature="e#9368#9701#0" expanded="true" />
+            <element signature="e#9700#9701#0" expanded="true" />
+            <element signature="e#9804#10101#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2799,14 +2840,14 @@
         <state relative-caret-position="1054">
           <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
-            <element signature="e#437#712#0" expanded="false" />
-            <element signature="e#742#991#0" expanded="false" />
-            <element signature="e#1027#2094#0" expanded="false" />
-            <element signature="e#2129#2408#0" expanded="false" />
-            <element signature="e#2758#5271#0" expanded="false" />
-            <element signature="e#5324#7766#0" expanded="false" />
-            <element signature="e#7812#10293#0" expanded="false" />
-            <element signature="e#10348#12852#0" expanded="false" />
+            <element signature="e#438#713#0" expanded="false" />
+            <element signature="e#743#992#0" expanded="false" />
+            <element signature="e#1028#2095#0" expanded="false" />
+            <element signature="e#2130#2409#0" expanded="false" />
+            <element signature="e#2759#5272#0" expanded="false" />
+            <element signature="e#5325#7767#0" expanded="false" />
+            <element signature="e#7813#10294#0" expanded="false" />
+            <element signature="e#10349#12853#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2837,6 +2878,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="109" column="63" lean-forward="true" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2955,6 +2997,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="120" column="17" lean-forward="false" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="17" />
+          <folding>
+            <element signature="e#4445#4638#0" expanded="false" />
+            <element signature="e#4637#4638#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3046,14 +3092,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -3109,46 +3147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#437#712#0" expanded="false" />
-            <element signature="e#742#991#0" expanded="false" />
-            <element signature="e#1027#2094#0" expanded="false" />
-            <element signature="e#2129#2408#0" expanded="false" />
-            <element signature="e#2758#5271#0" expanded="false" />
-            <element signature="e#5324#7766#0" expanded="false" />
-            <element signature="e#7812#10293#0" expanded="false" />
-            <element signature="e#10348#12852#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="e#2847#4054#0" expanded="true" />
-            <element signature="e#4053#4054#0" expanded="true" />
-            <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#cocoSeekbar#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#coldDefaule#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#hotDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#clodDrinkController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#frappuccinoController#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#initialView#0;class#MochaFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyPostDataToServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3157,16 +3155,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="170">
+          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#3071#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#5498#5522#0" expanded="true" />
+            <element signature="e#7227#7256#0" expanded="true" />
+            <element signature="e#8166#8195#0" expanded="true" />
+            <element signature="e#8561#8585#0" expanded="true" />
+            <element signature="e#8627#8656#0" expanded="true" />
+            <element signature="e#8698#8727#0" expanded="true" />
+            <element signature="e#8771#8800#0" expanded="true" />
+            <element signature="e#8898#9268#0" expanded="true" />
+            <element signature="e#9267#9268#0" expanded="true" />
+            <element signature="e#9368#9701#0" expanded="true" />
+            <element signature="e#9700#9701#0" expanded="true" />
+            <element signature="e#9804#10101#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/MyConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="12" column="122" lean-forward="false" selection-start-line="12" selection-start-column="122" selection-end-line="12" selection-end-column="122" />
+          <folding>
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/AddShowOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mocha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#438#713#0" expanded="false" />
+            <element signature="e#743#992#0" expanded="false" />
+            <element signature="e#1028#2095#0" expanded="false" />
+            <element signature="e#2130#2409#0" expanded="false" />
+            <element signature="e#2759#5272#0" expanded="false" />
+            <element signature="e#5325#7767#0" expanded="false" />
+            <element signature="e#7813#10294#0" expanded="false" />
+            <element signature="e#10349#12853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

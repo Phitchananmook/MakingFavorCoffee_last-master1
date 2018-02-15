@@ -13,12 +13,15 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import rmutsb.mook.chatchon.makingfavorcoffee.R;
+import rmutsb.mook.chatchon.makingfavorcoffee.ultility.AddShowOrder;
+import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyConstant;
 import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyManager;
 
 /**
@@ -39,7 +42,7 @@ public class MochaFragment extends Fragment {
     private String typeCoffeeString = "Cold Drink";
     private String espressoString = "10g", cocoString = "0.5g",
             milkString = "123g", frappeString = "456g";
-    private String DateTimestring;
+    private String dateTimeString;
 
 
     public static MochaFragment mochaInstance(String[] loginString) {
@@ -89,20 +92,21 @@ public class MochaFragment extends Fragment {
         //Frappe seekbar
         frappeSeekbar();
 
-
 //        Order Controller
         orderController();
 
-//        Get TimeDate;
-        Calendar calendar = Calendar.getInstance();
-        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
-        DateTimestring = dateFormat.format(calendar.getTime());
-
+//        Get TimeDate
+        getTimeDate();
 
 
 
     }//Main method
 
+    private void getTimeDate() {
+        Calendar calendar = Calendar.getInstance();
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+        dateTimeString = dateFormat.format(calendar.getTime());
+    }
 
 
     private void orderController() {
@@ -112,9 +116,6 @@ public class MochaFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-
-
-
                 Log.d(tag, "idLogin ==> " + loginString[0]);
                 Log.d(tag, "NameCoffee ==> " + "Mocha");
                 Log.d(tag, "TypeCoffee ==> " + typeCoffeeString);
@@ -123,22 +124,41 @@ public class MochaFragment extends Fragment {
                 Log.d(tag, "Milk ==> " + milkString);
                 Log.d(tag, "FrappePowder ==> " + frappeString);
                 Log.d(tag, "Item ==> " + "1");
-                Log.d(tag, "DateTimeOrder ==> " + DateTimestring);
+                Log.d(tag, "DateTimeOrder ==> " + dateTimeString);
 
-//                MyManager myManager = new MyManager(getActivity());
-//                myManager.addValueToSQLite(loginString[0], "Mocha",
-//                        typeCoffeeString, espressoString, cocoString, milkString, frappeString, "1");
+                try {
+
+                    AddShowOrder addShowOrder = new AddShowOrder(getActivity());
+                    MyConstant myConstant = new MyConstant();
+
+                    addShowOrder.execute(loginString[0], "Mocha", typeCoffeeString,
+                            espressoString, cocoString, milkString,
+                            frappeString, "1", dateTimeString,
+                            myConstant.getUrlAddShowOrderString());
+
+                    String result = addShowOrder.get();
+                    Log.d(tag, "Result ==> " + result);
+
+                if (Boolean.parseBoolean(result)){
+
+                    getActivity().getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentFragmentCoffee, new ShowOrderFragment())
+                        .addToBackStack(null)
+                        .commit();
 
 
+                }else{
 
-//                getActivity().getSupportFragmentManager()
-//                        .beginTransaction()
-//                        .replace(R.id.contentFragmentCoffee, new ShowOrderFragment())
-//                        .addToBackStack(null)
-//                        .commit();
+                    Toast.makeText(getActivity(),"Cannot Upload Order to Server",
+                            Toast.LENGTH_SHORT).show();
+
+                }
 
 
-
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
 
             }   // onClick

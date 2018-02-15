@@ -10,10 +10,10 @@ import com.squareup.okhttp.RequestBody;
 import com.squareup.okhttp.Response;
 
 /**
- * Created by Administrator on 15/2/2561.
+ * Created by masterung on 15/2/2018 AD.
  */
 
-public class AddShowOrder extends AsyncTask<String, Void, String> {
+public class AddShowOrder extends AsyncTask<String, Void, String>{
 
     private Context context;
 
@@ -29,20 +29,18 @@ public class AddShowOrder extends AsyncTask<String, Void, String> {
             OkHttpClient okHttpClient = new OkHttpClient();
             RequestBody requestBody = new FormEncodingBuilder()
                     .add("isAdd", "true")
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-                    .add("", strings[0])
-
-
+                    .add("idLogin", strings[0])
+                    .add("NameCoffee", strings[1])
+                    .add("TypeCoffee", strings[2])
+                    .add("Espresso", strings[3])
+                    .add("CocoPowder", strings[4])
+                    .add("Milk", strings[5])
+                    .add("FrappePowder", strings[6])
+                    .add("Item", strings[7])
+                    .add("DateTimeOder", strings[8])
                     .build();
             Request.Builder builder = new Request.Builder();
-            Request request = builder.url(strings[5]).post(requestBody).build();
+            Request request = builder.url(strings[9]).post(requestBody).build();
             Response response = okHttpClient.newCall(request).execute();
             return response.body().string();
 
@@ -51,6 +49,6 @@ public class AddShowOrder extends AsyncTask<String, Void, String> {
             return null;
         }
 
-    }// doin
-} //Main Class
+    }   // doin
 
+}   // Main Class
