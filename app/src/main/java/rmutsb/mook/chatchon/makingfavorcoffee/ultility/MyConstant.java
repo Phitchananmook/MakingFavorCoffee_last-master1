@@ -11,11 +11,19 @@ public class MyConstant {
     private String urlAddShowOrderString = "http://androidthai.in.th/nut/addShowOder.php";
     private String urlGetAllShowOrderString = "http://androidthai.in.th/nut/getAllShowOder.php";
     private String UrlGetOrderrWhereIdLoginAnDataTime = "http://androidthai.in.th/nut/getOrderWhereIdLoginAnDateTime.php";
+    private String urlGetPriveWhereNameCoffee = "http://androidthai.in.th/nut/getPriceWhereCoffee.php";
+
 
     private String[] columUserStrings = new String[]{"user_id", "user_Name", "user_Surname", "user_Phone", "user_Email", "user_Password"};
     private String[] columnShowOrderString = new String[]{"id", "idLogin", "NameCoffee", "TypeCoffee", "Espresso", "CocoPowder", "Milk", "FrappePowder", "Item", "DateTimeOder"};
 
+
+    public String getUrlGetPriveWhereNameCoffee() {
+        return urlGetPriveWhereNameCoffee;
+    }
+
     public String getUrlGetAllShowOrderString() {
+
         return urlGetAllShowOrderString;
     }
 

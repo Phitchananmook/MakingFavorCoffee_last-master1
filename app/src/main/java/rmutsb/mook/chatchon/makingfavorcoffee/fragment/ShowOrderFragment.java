@@ -15,10 +15,39 @@ import rmutsb.mook.chatchon.makingfavorcoffee.R;
 
 public class ShowOrderFragment extends Fragment{
 
+    private String[] loginString;
+    private String DateTimestring;
+
+    public static ShowOrderFragment showOrderInstance(String[] loginStrings,
+                                                      String DateTimestring) {
+
+        ShowOrderFragment showOrderFragment = new ShowOrderFragment();
+        Bundle bundle = new Bundle();
+        bundle.putStringArray("Login", loginStrings);
+        bundle.putString("DateTime", DateTimestring);
+        showOrderFragment.setArguments(bundle);
+
+        return showOrderFragment;
+    }
+
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+//        Get Value From Argument
+        loginString = getArguments().getStringArray("Login");
+        DateTimestring = getArguments().getString("DataTime");
+
+
+
+    }//main method
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_show_order, container, false);
         return view;
-    }
-}
+    }//onCreateView
+
+} //main class

@@ -4,54 +4,61 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <!--Name-->
-    <TextView
-        android:id="@+id/txtName"
-        android:textSize="@dimen/h1"
-        android:text="Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
-    <!--Type-->
-    <TextView
-        android:id="@+id/txtType"
-        android:textSize="@dimen/h1"
-        android:text="Type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
-    <!--Espresso-->
-    <TextView
-        android:id="@+id/txtEspresso"
-        android:textSize="@dimen/h2"
-        android:text="Espresso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
 
-    <!--cocoaPowder-->
-    <TextView
-        android:id="@+id/txtCocoPowder"
-        android:textSize="@dimen/h2"
-        android:text="Coco Powder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+       <!--Item-->
+       <TextView
+           android:id="@+id/txtItem"
+           android:layout_weight="1"
+           android:textSize="@dimen/h2"
+           android:text="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
 
-    <!--Milk-->
-    <TextView
-        android:id="@+id/txtMilk"
-        android:textSize="@dimen/h2"
-        android:text="Milk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+       <!--Name and Type-->
+       <LinearLayout
+           android:layout_weight="4"
+           android:orientation="vertical"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
 
-    <!--Fer-->
-    <TextView
-        android:id="@+id/txtFrappe"
-        android:layout_marginBottom="15dp"
-        android:textSize="@dimen/h1"
-        android:text="Frappe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+           <!--Name-->
+           <TextView
+               android:id="@+id/txtName"
+               android:textSize="@dimen/h2"
+               android:text="Name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
 
+           <!--Type-->
+           <TextView
+               android:id="@+id/txtType"
+               android:textSize="@dimen/h2"
+               android:text="Type"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+
+       <!--Price-->
+      <TextView
+          android:gravity="center_horizontal"
+          android:id="@+id/txtPrice"
+          android:layout_weight="1"
+          android:textSize="@dimen/h2"
+          android:text="25"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+
+
+
+
+   </LinearLayout>
 
 </LinearLayout>
