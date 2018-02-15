@@ -24,7 +24,7 @@ import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyManager;
 public class MochaFragment extends Fragment {
 
 
-    //int score = 0;
+
     //    Explicit
     private String[] loginString;
     private RadioButton frappuccinoRadioButton, coldDrinnkRadioButton, hotDrinkRadioButton;
