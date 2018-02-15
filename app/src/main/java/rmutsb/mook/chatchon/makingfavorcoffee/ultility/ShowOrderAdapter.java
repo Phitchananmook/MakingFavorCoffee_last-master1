@@ -16,25 +16,17 @@ import rmutsb.mook.chatchon.makingfavorcoffee.R;
 public class ShowOrderAdapter extends BaseAdapter {
 
     private Context context;
-    private String[] nameStrigs, typeStrings, espressoStrings,
-            cocoStrings, milkStrings, ferStrings;
+    private String[] nameStrigs, typeStrings, priceStrings;
 
 
     public ShowOrderAdapter(Context context,
                             String[] nameStrigs,
                             String[] typeStrings,
-                            String[] espressoStrings,
-                            String[] cocoStrings,
-                            String[] milkStrings,
-                            String[] ferStrings) {
-
+                            String[] priceStrings) {
         this.context = context;
         this.nameStrigs = nameStrigs;
         this.typeStrings = typeStrings;
-        this.espressoStrings = espressoStrings;
-        this.cocoStrings = cocoStrings;
-        this.milkStrings = milkStrings;
-        this.ferStrings = ferStrings;
+        this.priceStrings = priceStrings;
     }
 
     @Override
@@ -58,21 +50,16 @@ public class ShowOrderAdapter extends BaseAdapter {
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view1 = layoutInflater.inflate(R.layout.listview_order, viewGroup, false);
 
+        TextView itemTextView = view1.findViewById(R.id.txtItem);
         TextView nameTextView = view1.findViewById(R.id.txtName);
         TextView typeTextView = view1.findViewById(R.id.txtType);
-        TextView espressoTextView = view1.findViewById(R.id.txtEspresso);
-        TextView cocoTextView = view1.findViewById(R.id.txtCocoPowder);
-        TextView milkTextView = view1.findViewById(R.id.txtMilk);
-        TextView ferTextView = view1.findViewById(R.id.txtFrappe);
+        TextView priceTextView = view1.findViewById(R.id.txtPrice);
 
+        String itemString = Integer.toString(i+1);
+        itemTextView.setText(itemString);
         nameTextView.setText(nameStrigs[i]);
         typeTextView.setText(typeStrings[i]);
-        espressoTextView.setText(espressoStrings[i]);
-        cocoTextView.setText(cocoStrings[i]);
-        milkTextView.setText(milkStrings[i]);
-        ferTextView.setText(ferStrings[i]);
-
-
+        priceTextView.setText(priceStrings[i]);
 
         return view1;
     }

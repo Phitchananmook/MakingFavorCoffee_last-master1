@@ -30,6 +30,7 @@ import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyManager;
 
 public class MochaFragment extends Fragment {
 
+
     //    Explicit
     private String[] loginString;
     private RadioButton frappuccinoRadioButton, coldDrinnkRadioButton, hotDrinkRadioButton;
@@ -97,7 +98,6 @@ public class MochaFragment extends Fragment {
         getTimeDate();
 
 
-
     }//Main method
 
     private void getTimeDate() {
@@ -137,28 +137,27 @@ public class MochaFragment extends Fragment {
                     String result = addShowOrder.get();
                     Log.d(tag, "Result ==> " + result);
 
-                if (Boolean.parseBoolean(result)){
-
-//                    Replace Fragment on Activity
-                    getActivity().getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.contentFragmentCoffee, new ShowOrderFragment())
-                        .addToBackStack(null)
-                        .commit();
+                    if (Boolean.parseBoolean(result)) {
 
 
-                }else{
+//                        Replace Fragment on Activity
+                        getActivity().getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.contentFragmentCoffee, ShowOrderFragment.showOrderInstance(loginString, dateTimeString))
+                                .addToBackStack(null)
+                                .commit();
 
-                    Toast.makeText(getActivity(),"Cannot Upload Order to Server",
-                            Toast.LENGTH_SHORT).show();
+                    } else {
 
-                }
+                        Toast.makeText(getActivity(), "Cannot Upload Order to Server",
+                                Toast.LENGTH_SHORT).show();
+
+                    }
 
 
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
 
             }   // onClick
         });
@@ -201,7 +200,7 @@ public class MochaFragment extends Fragment {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
-                if (progress <= 10){
+                if (progress <= 10) {
                     progress = 10;
                 }
 
@@ -232,7 +231,7 @@ public class MochaFragment extends Fragment {
                 double progressAdouble = (double) progress;
                 double milkAdoudle = progressAdouble / 10.0;
 
-                if (milkAdoudle < 0.5){
+                if (milkAdoudle < 0.5) {
                     milkAdoudle = 0.5;
                 }
                 milkString = Double.toString(milkAdoudle);
@@ -353,6 +352,7 @@ public class MochaFragment extends Fragment {
             Log.d("6DecV1", "LoinString[" + i + "] ==>" + loginString[i]);
         }
     }
+
 
     @Nullable
     @Override

@@ -3,11 +3,16 @@ package rmutsb.mook.chatchon.makingfavorcoffee.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import rmutsb.mook.chatchon.makingfavorcoffee.R;
+import rmutsb.mook.chatchon.makingfavorcoffee.ultility.GetOrderWhereIdLoginAnDateTime;
+import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyConstant;
 
 /**
  * Created by Acer on 4/1/2561.
@@ -36,12 +41,55 @@ public class ShowOrderFragment extends Fragment{
         super.onActivityCreated(savedInstanceState);
 
 //        Get Value From Argument
-        loginString = getArguments().getStringArray("Login");
-        DateTimestring = getArguments().getString("DataTime");
+        getValueFromArgument();
 
+//        Show DateTime
+        showDateTime();
 
+//        create listview
+        createListview();
 
     }//main method
+
+    private void createListview() {
+        ListView listView = getView().findViewById(R.id.listViewOrder);
+        MyConstant myConstant = new MyConstant();
+
+        String tag = "15FebV2";
+
+        try {
+
+            GetOrderWhereIdLoginAnDateTime getOrderWhereIdLoginAnDateTime = new GetOrderWhereIdLoginAnDateTime(getActivity());
+            getOrderWhereIdLoginAnDateTime.execute(loginString[0], DateTimestring,
+                    myConstant.getUrlGetOrderrWhereIdLoginAnDataTime());
+
+            String resultJSON = getOrderWhereIdLoginAnDateTime.get();
+            Log.d(tag, "JSON ==> " + resultJSON);
+
+
+
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }//create listview
+
+    private void showDateTime() {
+        TextView textView = getView().findViewById(R.id.txtDateTime);
+        textView.setText(DateTimestring);
+
+    }
+
+    private void getValueFromArgument() {
+        loginString = getArguments().getStringArray("Login");
+        DateTimestring = getArguments().getString("DateTime");
+
+        Log.d("15FebV1", "LoginString.leng" + loginString.length);
+        Log.d("15FebV1", "DateTime ==> " + DateTimestring);
+
+    }
 
     @Nullable
     @Override
@@ -49,5 +97,7 @@ public class ShowOrderFragment extends Fragment{
         View view = inflater.inflate(R.layout.fragment_show_order, container, false);
         return view;
     }//onCreateView
+
+
 
 } //main class
