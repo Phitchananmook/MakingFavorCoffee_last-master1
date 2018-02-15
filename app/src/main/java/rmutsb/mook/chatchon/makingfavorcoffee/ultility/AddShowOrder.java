@@ -10,14 +10,14 @@ import com.squareup.okhttp.RequestBody;
 import com.squareup.okhttp.Response;
 
 /**
- * Created by Acer on 30/10/2560.
+ * Created by Administrator on 15/2/2561.
  */
 
-public class MyPostDataToServer extends AsyncTask<String, Void, String>{
+public class AddShowOrder extends AsyncTask<String, Void, String> {
 
-    Context context;
+    private Context context;
 
-    public MyPostDataToServer(Context context) {
+    public AddShowOrder(Context context) {
         this.context = context;
     }
 
@@ -29,11 +29,17 @@ public class MyPostDataToServer extends AsyncTask<String, Void, String>{
             OkHttpClient okHttpClient = new OkHttpClient();
             RequestBody requestBody = new FormEncodingBuilder()
                     .add("isAdd", "true")
-                    .add("Name", strings[0])
-                    .add("Surname", strings[1])
-                    .add("Phone", strings[2])
-                    .add("Email", strings[3])
-                    .add("Password", strings[4])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+                    .add("", strings[0])
+
+
                     .build();
             Request.Builder builder = new Request.Builder();
             Request request = builder.url(strings[5]).post(requestBody).build();
@@ -45,5 +51,6 @@ public class MyPostDataToServer extends AsyncTask<String, Void, String>{
             return null;
         }
 
-    } //doin
-}//Main class
+    }// doin
+} //Main Class
+
