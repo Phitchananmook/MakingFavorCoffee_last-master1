@@ -108,6 +108,7 @@ public class MochaFragment extends Fragment {
     private void orderController() {
 
         final Button button = getView().findViewById(R.id.btnOrder);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

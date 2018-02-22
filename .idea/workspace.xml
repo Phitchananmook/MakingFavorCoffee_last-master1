@@ -49,6 +49,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/EspressoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/EspressoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" />
@@ -88,27 +90,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShowOrderFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/ShowOrderFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-              <folding>
-                <element signature="method#showDateTime#0;class#ShowOrderFragment#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MochaFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+            <state relative-caret-position="158">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="method#mochaInstance#0;class#MochaFragment#0" expanded="false" />
                 <element signature="method#onActivityCreated#0;class#MochaFragment#0" expanded="false" />
-                <element signature="method#orderController#0;class#MochaFragment#0" expanded="false" />
                 <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
                 <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
                 <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
@@ -124,68 +113,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EspressoFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/EspressoFragment.java">
+      <file leaf-file-name="ShowOrderFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/ShowOrderFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="100" column="64" lean-forward="false" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
+            <state relative-caret-position="-428">
+              <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
               <folding>
-                <element signature="method#espressoInstance#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#orderController#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#espresspSeekbar#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#frappeSeekbar#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#milkSeekbar#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#cocoSeekbar#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#coldDefaule#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#hotDrinkController#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#clodDrinkController#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#frappuccinoController#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#initialView#0;class#EspressoFragment#0" expanded="false" />
-                <element signature="method#getValueFromArument#0;class#EspressoFragment#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LatteFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-              <folding>
-                <element signature="method#latteInstance#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#orderController#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#espresspSeekbar#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#frappeSeekbar#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#milkSeekbar#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#cocoSeekbar#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#coldDefaule#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#hotDrinkController#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#clodDrinkController#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#frappuccinoController#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#initialView#0;class#LatteFragment#0" expanded="false" />
-                <element signature="method#getValueFromArument#0;class#LatteFragment#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CappucchinoFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="method#orderController#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#espresspSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#frappeSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#milkSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#cocoSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#coldDefaule#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#hotDrinkController#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#clodDrinkController#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#frappuccinoController#0;class#CappucchinoFragment#0" expanded="false" />
-                <element signature="method#initialView#0;class#CappucchinoFragment#0" expanded="false" />
+                <element signature="method#showDateTime#0;class#ShowOrderFragment#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1924,7 +1858,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/HomeScoreFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MainFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
@@ -1945,10 +1878,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_latta.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/frngment_cappucchino.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_americano.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/EspressoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java" />
       </list>
     </option>
   </component>
@@ -2053,6 +1987,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="makingfavorcoffee" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MakingFavorCoffee_last-master1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makingfavorcoffee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ultility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2190,7 +2146,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519265562572" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519267053534" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2238,7 +2194,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519265562572" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519267053534" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2421,7 +2377,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519265562603" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519267053539" />
       </method>
     </configuration>
     <list size="1">
@@ -2544,7 +2500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519264859142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="start update 220261 2">
+      <created>1519265590250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519265590250</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2634,11 +2597,12 @@
     <MESSAGE value="start 1902" />
     <MESSAGE value="start update 200261" />
     <MESSAGE value="start update 220261" />
-    <option name="LAST_COMMIT_MESSAGE" value="start update 220261" />
+    <MESSAGE value="start update 220261 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="start update 220261 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2655,8 +2619,8 @@
         <state relative-caret-position="1309">
           <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding>
-            <element signature="e#3037#4947#0" expanded="false" />
-            <element signature="e#4946#4947#0" expanded="false" />
+            <element signature="e#3043#5048#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#EspressoFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#EspressoFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#EspressoFragment#0" expanded="false" />
@@ -2685,7 +2649,6 @@
           <folding>
             <element signature="method#mochaInstance#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#onActivityCreated#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#orderController#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
@@ -2752,7 +2715,6 @@
           <folding>
             <element signature="method#mochaInstance#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#onActivityCreated#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#orderController#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />
@@ -2888,13 +2850,6 @@
             <element signature="e#7813#10294#0" expanded="false" />
             <element signature="e#10349#12853#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2434">
-          <caret line="103" column="69" lean-forward="false" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -3036,14 +2991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/ShowOrderAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3190,20 +3137,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MainFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/CappucchinoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="516">
+          <caret line="154" column="40" lean-forward="true" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
           <folding>
-            <element signature="method#orderController#0;class#CappucchinoFragment#0" expanded="false" />
+            <element signature="method#cappucchinoInstance#0;class#CappucchinoFragment#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#CappucchinoFragment#0" expanded="false" />
@@ -3217,44 +3156,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding>
-            <element signature="method#latteInstance#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#orderController#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#espresspSeekbar#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#frappeSeekbar#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#milkSeekbar#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#cocoSeekbar#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#coldDefaule#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#hotDrinkController#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#clodDrinkController#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#frappuccinoController#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#initialView#0;class#LatteFragment#0" expanded="false" />
-            <element signature="method#getValueFromArument#0;class#LatteFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/ShowOrderFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="method#showDateTime#0;class#ShowOrderFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/EspressoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" column="64" lean-forward="false" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
+        <state relative-caret-position="462">
+          <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
           <folding>
             <element signature="method#espressoInstance#0;class#EspressoFragment#0" expanded="false" />
-            <element signature="method#orderController#0;class#EspressoFragment#0" expanded="false" />
+            <element signature="method#onActivityCreated#0;class#EspressoFragment#0" expanded="false" />
+            <element signature="method#getTimeDate#0;class#EspressoFragment#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#EspressoFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#EspressoFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#EspressoFragment#0" expanded="false" />
@@ -3269,14 +3178,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/LatteFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="127" column="62" lean-forward="false" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+          <folding>
+            <element signature="method#latteInstance#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#onActivityCreated#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#getTimeDate#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#espresspSeekbar#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#frappeSeekbar#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#milkSeekbar#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#cocoSeekbar#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#coldDefaule#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#hotDrinkController#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#clodDrinkController#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#frappuccinoController#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#initialView#0;class#LatteFragment#0" expanded="false" />
+            <element signature="method#getValueFromArument#0;class#LatteFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/AmericanoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="120" column="21" lean-forward="true" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/ultility/ShowOrderAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/ShowOrderFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="method#showDateTime#0;class#ShowOrderFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmutsb/mook/chatchon/makingfavorcoffee/fragment/MochaFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        <state relative-caret-position="158">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="method#mochaInstance#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#onActivityCreated#0;class#MochaFragment#0" expanded="false" />
-            <element signature="method#orderController#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#espresspSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#frappeSeekbar#0;class#MochaFragment#0" expanded="false" />
             <element signature="method#milkSeekbar#0;class#MochaFragment#0" expanded="false" />

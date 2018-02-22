@@ -104,7 +104,7 @@ public class EspressoFragment extends Fragment{
 
     private void orderController() {
 
-        Button button = getView().findViewById(R.id.btnoder);
+        final Button button = getView().findViewById(R.id.btnoder);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,7 +119,6 @@ public class EspressoFragment extends Fragment{
                 Log.d(tag, "FrappePowder ==> " + frappeString);
                 Log.d(tag, "Item ==> " + "1");
                 Log.d(tag, "DateTimeOrder ==> " + dateTimeString);
-
 
                 try {
 
@@ -136,12 +135,13 @@ public class EspressoFragment extends Fragment{
 
                     if (Boolean.parseBoolean(result)){
 
+
+//                        Replace Fragment on Activity
                         getActivity().getSupportFragmentManager()
                                 .beginTransaction()
-                                .replace(R.id.contentFragmentCoffee, new ShowOrderFragment())
+                                .replace(R.id.contentFragmentCoffee, ShowOrderFragment.showOrderInstance(loginString, dateTimeString))
                                 .addToBackStack(null)
                                 .commit();
-
 
                     }else{
 
