@@ -43,7 +43,6 @@ public class MochaFragment extends Fragment {
             milkString = "123g", frappeString = "456g";
     private String dateTimeString;
 
-
     public static MochaFragment mochaInstance(String[] loginString) {
 
         MochaFragment mochaFragment = new MochaFragment();
@@ -105,7 +104,6 @@ public class MochaFragment extends Fragment {
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
         dateTimeString = dateFormat.format(calendar.getTime());
     }
-
 
     private void orderController() {
 

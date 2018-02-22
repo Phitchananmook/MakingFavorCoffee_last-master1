@@ -13,6 +13,10 @@ import android.widget.RadioButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import rmutsb.mook.chatchon.makingfavorcoffee.R;
 import rmutsb.mook.chatchon.makingfavorcoffee.ultility.MyManager;
 
@@ -32,6 +36,7 @@ public class LatteFragment extends Fragment {
     private String typeCoffeeString = "Cold Drink";
     private String espressoString = "10g", cocoString = "0.5g",
             milkString = "123g", frappeString = "456g";
+    private String dateTimeString;
 
     public static LatteFragment latteInstance(String[] loginString){
         LatteFragment latteFragment = new LatteFragment();
@@ -81,8 +86,16 @@ public class LatteFragment extends Fragment {
 //        Order Controller
         orderController();
 
+        // Get TimeDate
+        getTimeDate();
+
     }//Main method
 
+    private void getTimeDate() {
+        Calendar calendar = Calendar.getInstance();
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+        dateTimeString = dateFormat.format(calendar.getTime());
+    }
 
     private void orderController() {
 

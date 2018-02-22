@@ -281,7 +281,7 @@
                             android:id="@+id/txtStartFrappe"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="0.5g"
+                            android:text="10g"
                             android:textSize="@dimen/h2" />
 
                         <!--SeekBar-->
@@ -299,7 +299,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
-                            android:text="1g"
+                            android:text="20g"
                             android:textSize="@dimen/h2" />
                     </RelativeLayout>
                 </LinearLayout>
