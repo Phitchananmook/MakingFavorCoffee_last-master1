@@ -101,7 +101,7 @@ public class MochaFragment extends Fragment {
 
     private void getTimeDate() {
         Calendar calendar = Calendar.getInstance();
-        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         dateTimeString = dateFormat.format(calendar.getTime());
     }
 
