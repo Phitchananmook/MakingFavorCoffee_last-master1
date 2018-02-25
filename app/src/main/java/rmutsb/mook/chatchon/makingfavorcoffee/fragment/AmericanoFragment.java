@@ -108,14 +108,15 @@ public class AmericanoFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                Log.d(tag, "idLogin " + loginString[0]);
-                Log.d(tag, "NameCoffee " + "Americano");
-                Log.d(tag, "TypeCoffee" + typeCoffeeString);
-                Log.d(tag, "Espresso" + espressoString);
-                Log.d(tag, "CocoaPowder" + cocoString);
-                Log.d(tag, "Milk" + milkString);
-                Log.d(tag, "FrappePowder" + frappeString);
-                Log.d(tag, "Item" + "1");
+
+                Log.d(tag, "idLogin ==> " + loginString[0]);
+                Log.d(tag, "NameCoffee ==> " + "Americano");
+                Log.d(tag, "TypeCoffee ==> " + typeCoffeeString);
+                Log.d(tag, "Espresso ==> " + espressoString);
+                Log.d(tag, "CocoaPowder ==> " + cocoString);
+                Log.d(tag, "Milk ==> " + milkString);
+                Log.d(tag, "FrappePowder ==> " + frappeString);
+                Log.d(tag, "Item ==> " + "1");
                 Log.d(tag, "DateTimeOrder ==> " + dateTimeString);
 
                 try {
